@@ -2,14 +2,19 @@ import { datas } from "../Datas/data.js";
 
 
 const webdetails = JSON.parse(JSON.stringify(datas))
-const container = document.getElementById('container')
+const cardslist = document.getElementById("card-list")
+
+
 
 window.onload = () => {
     webdetails.map((webdetail,index) => {
         const heading = document.createElement('h1');
         heading.innerText = "WEB " + (index+1) + ".0"
-        document.getElementById("body").appendChild(heading)
+        heading.className = "heading"
+        cardslist.appendChild(heading)
+        const container = document.createElement('div');
         webdetail.map((webd) => {
+            container.className = "container";
             const cards = document.createElement('div');
             cards.className = "card-container"
             const cardimg = document.createElement('img');
@@ -33,6 +38,12 @@ window.onload = () => {
             cards.appendChild(titleandheading)
 
             container.appendChild(cards)
+            cards.addEventListener('click',() => {
+                location.href = "Description.html"
+                handledata(webd)
+            })
         })
+        cardslist.appendChild(container)
     })
 }
+

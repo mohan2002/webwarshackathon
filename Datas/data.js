@@ -20,7 +20,7 @@ export const datas = [
             "id":3,
             "title":"The campion of WEB 1.0 is created.",
             "heading":"Netscape Created(Apr 4, 1994)",
-            "image":"https://www.webdesignmuseum.org/uploaded/old-software/web-browsers/netscape-navigator/netscape-navigator-1-0-01.png",
+            "image":"https://d2bs8hqp6qvsw6.cloudfront.net/article/images/750x750/dimg/netscape-1.jpg",
             "description":["On December 15, 1994, Netscape Communications Corporation released the Netscape Navigator 1.0 web browser. Netscape Navigator 1.0 was the first commercial web browser, although this particular version was free for non-commercial use. In the mid-1990s became Netscape Navigator the most popular web browser.","Netscape Navigator 1.0 included new enhancements and features such as modem speed optimization, security considerations, document and image-handling performance (JPEG image decompression), new user interface features (extended toolbar and enhanced bookmark, etc.), helper applications and, support of HTML 3.0 features (tables, color control for text, hyperlinks, and backgrounds).",""],
             "images":["https://www.webdesignmuseum.org/uploaded/old-software/web-browsers/netscape-navigator/netscape-navigator-1-0-preview.png","https://www.webdesignmuseum.org/uploaded/old-software/web-browsers/netscape-navigator/netscape-navigator-1-0-02-preview.png","https://www.webdesignmuseum.org/uploaded/old-software/web-browsers/netscape-navigator/netscape-navigator-1-0-03-preview.png","https://www.webdesignmuseum.org/uploaded/old-software/web-browsers/netscape-navigator/netscape-navigator-1-0-08-preview.png"]
         },
@@ -62,7 +62,7 @@ export const datas = [
             "id" : "5",
             "title":"Aug 20, 2005 - Youtube the video-sharing website",
             "heading":"Heart of Content creators",
-            "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/2560px-Logo_of_YouTube_%282015-2017%29.svg.png",
+            "image":"https://variety.com/wp-content/uploads/2020/06/youtube-logo.png",
             "description":["There is a lot to learn from entertainment websites, especially YouTube.", "From short informational videos to long entertainment series, YouTube has certainly evolved in the world of media.", "YouTube is a prime example of a brand that listens to their audience as well as their content creators"],
             "images":["https://cdn.vox-cdn.com/thumbor/szR7Ec1Qjx3ku0RPrpriEXM-Ze0=/0x0:1200x800/1200x800/filters:focal(504x304:696x496)/cdn.vox-cdn.com/uploads/chorus_image/image/65784178/homepage.0.jpeg","https://blog.media.io/images/video-editor/youtube-browser-view.jpg","https://cdn.vox-cdn.com/thumbor/7Xw_5T_FlWl6IQbLqEgDXrCi_5M=/0x0:771x373/1400x1050/filters:focal(325x126:447x248):format(png)/cdn.vox-cdn.com/uploads/chorus_image/image/52715373/Screen_Shot_2017_01_12_at_9.18.48_AM.0.png"]
             }, 
@@ -70,7 +70,7 @@ export const datas = [
             "id" : "6",
             "title":"Oct 1, 2005 - First Web 2.0 Conference",
             "heading":"Conference",
-            "image":"https://historyofinformation.com/images/1982a.jpg",
+            "image":"https://miro.medium.com/max/1400/1*9Cqf_1dlcQ-0VCpN12Ed_g.jpeg",
             "description":["The first Web 2.0 conference was held October,2004 at the Hotel Nikko in San Francisco.", "It is believed to be the point at which the term Web 2.0 came into popular usage."],
             "images":["https://techcrunch.com/wp-content/uploads/2009/02/web-20.jpg","https://cdn.oreillystatic.com/oreilly/images/what-is-web-20-figure1.jpeg"]
             },
