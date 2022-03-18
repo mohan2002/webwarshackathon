@@ -1,0 +1,52 @@
+*,*::after,*::before{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F7F7F7;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.card-container{
+    height: 350px;
+    width: 25%;
+    background-color: rgba(128, 128, 128, 0.205);
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img{
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.titleheading{
+    height: 40%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-heading{
+    font-size: 1.5rem;
+}
+.card-title{
+    font-size: 0.9rem;
+}
